@@ -3,6 +3,7 @@ export class Hill {
         this.color = color;
         this.speed = speed;
         this.total = total;
+        console.log("FDSAdfadfs");
     }
 
     resize(stageWidth, stageHeight) {
@@ -22,6 +23,7 @@ export class Hill {
     }
 
     draw(ctx) {
+        console.log("FDsafdsafdfas");
         ctx.fillStyle = this.color;
         ctx.beginPath();
 
