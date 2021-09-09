@@ -31,7 +31,7 @@ export class Hill {
         let prev = cur;
 
         let dots = [];
-        customElements.x += this.speed;
+        cur.x += this.speed;
 
         if (cur.x > -this.gap) {
             this.points.unshift({
